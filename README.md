@@ -13,11 +13,12 @@ rbenvにパスを通すために、
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
-
 `~/.bash_profile`を再読込し、  
-現在のディレクトリのrubyバージョンを2.3.1で指定します。
+rubyの2.3.1をインストール、
+それから、現在のディレクトリのrubyバージョンを2.3.1で指定します。
 ```
 $ source ~/.bash_profile
+$ rbenv install 2.3.1
 $ rbenv local 2.3.1
 ```
 
