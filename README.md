@@ -53,7 +53,7 @@ gymコマンドを実行する用意ができたので、以下のコマンド�
 (export_methodオプションはAdHoc用にビルドするため。デフォルトでは、AppStore用のビルドになる)
 
 ```
-$ bundle exec fastlane gym --export_method "adhoc"
+$ bundle exec fastlane gym --export_method "ad-hoc"
 ```
 
 ### Fastfileの作成、DeployGateでの配布
